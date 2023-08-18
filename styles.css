@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('C:/Users/Harish Ramaswamy/OneDrive/Desktop/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #232B2B; /* Charleston Green */
+  color: white; /* Text color */
+}
+
+header {
+  background-color: #232B2B;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #FF9900; /* Complementing color */
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #BBB; /* Lighter black */
+}
+
+#about,
+#projects,
+#contact,
+#leave-info {
+  padding: 2rem;
+  background-color: #232B2B;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.project h3 {
+  margin-top: 1rem;
+}
+
+.project p {
+  margin-top: 1rem;
+}
+
+.project ul {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+#projects {
+  background-color: #232B2B; /* Same as other sections */
+}
+
+#contact {
+  background-color: #232B2B; /* Same as other sections */
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #333; /* Darken the link background on hover */
+  color: white;
+}
+
+a:active {
+  color: white; /* Retain white color when link is clicked */
+}
+
+/* Form styling */
+form {
+  background-color: #232B2B;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form label,
+form input,
+form textarea,
+form button {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  color: white;
+  background-color: #333; /* Input background color */
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+form button {
+  background-color: #FF9900; /* Button color */
+  color: #232B2B; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+form button:hover {
+  background-color: #1a1a1a; /* Darken the button on hover */
+  color: white;
+}
+
+/* Icons */
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* White on click */
+.white-on-click {
+  transition: color 0.3s;
+}
+
+.white-on-click:hover {
+  color: white;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.contact-icon {
+  width: 400px; /* Adjust the size as needed */
+  height: auto;
+  margin: 0 1rem;
+}

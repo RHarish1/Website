@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Harish Ramaswamy</h1>
+    <p><em>Student</em><br>B.Tech 2nd Year<br>Delhi Technological University (CSE)</p>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a college student currently exploring the vast fields under the discipline of computer science and engineering.</p>
+  </section>
+  <section id="image">
+    <!-- You can add an image or any other content here -->
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <a href="https://github.com/RHarish1/HuffmanCode" target="_blank"><h3 class="white-on-click">Huffman Coding</h3></a>
+      <p>I implemented Huffman coding in Python, a lossless data compression algorithm that assigns variable-length codes to input characters based on their frequencies. This allows me to compress data without losing any information.</p>
+      <p><strong>Benefits:</strong></p>
+      <ul>
+        <li>This implementation of Huffman coding can be used to compress text to almost half of the original size.</li>
+        <li>It is efficient and easy to use.</li>
+        <li>The code for my implementation is available on GitHub.</li>
+      </ul>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/harish-ramaswamy-703721253/" target="_blank">
+        <img src="Images/LI-Logo.png" alt="LinkedIn" class="contact-icon">
+      </a>
+      <a href="https://github.com/RHarish1" target="_blank">
+        <img src="Images/GitHub_Logo_White.png" alt="GitHub" class="contact-icon">
+      </a>
+    </div>
+  </section>
+  <section id="leave-info">
+    <h2>Leave Your Info</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
